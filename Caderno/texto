@@ -1,0 +1,80 @@
+Propriedade Object Fit
+- Como uma imagem ou vídeo vai se comportar dentro de um container
+
+div{
+width: 200px;
+height: 300px;
+}
+img {
+width: 100%;
+height: 100%;
+}
+
+imagem FILL
+object-fit: fill;
+
+Distorce a imagem para ela caber dentro do container
+
+(altura de 300px e largura de 200px)
+
+imagem CONTAIN
+object-fit: contain;
+
+a imagem é redimensionada para caber no container. Então ela pode ser reduzida ou aumentada.
+
+imagem COVER
+object-fit: cover;
+
+A imagem preenche todo o container, mas ao invés de ficar distorcida, as partes da imagem que não cabem no container são cortadas.
+
+imagem NONE
+object-fit: none;
+
+A imagem ignora totalmente a larguta e altura do elemento pai e mantem suas proporções de origem
+
+
+imagem SCALE DOWN
+object-fit: scale-down;
+
+Escolhe entre o contain ou o none que a imagem cabe melhor
+
+--- --- --- --- --- --- --- --- --- --- ---
+
+OBJECT POSITION
+
+- O valor padrão envolve centralizar a imagem no container
+
+object-position: x, y;
+
+A imagem se desloca no eixo x e/ou y
+
+Podemos usar valores negativos
+
+Aceita algumas palavras chaves:
+left, center, right (pro eixo x)
+
+top, center, botton, start, end (pro eixo y)
+
+--- --- --- --- --- --- --- --- --- --- ---
+
+FUNDO DOS ELEMENTOS
+
+COMO MANIPULAR O FUNDO?
+
+background-image: url (aplica imagem);
+pode usar qualquer fomrato de imagem
+
+Dá pra definir fundo em degrade
+background-image: linear-gradient(cor de inicio, cor de fim), dá pra colocar mais de duas cores
+
+podemos definir grau, quanto cada cor vai ocupar do gradiente. Ir na documentação. 
+
+radial-gradient
+
+repeating: repetir efeito conforme configuração
+repeating-linear-gradient (to top, nomedacor 0 50px, nomeoutracor 20px 40px)
+
+site com patterns CSS3 patterns gallery project verou
+
+
+pode criar camadas de imagem no mesmo background-image: url1, url2;+++
