@@ -1,0 +1,14 @@
+método post x get:
+get aparecem os dados na url, portanto não é seguro para senhas
+
+no step em numbers define de quanto em quantos numeros tu aumenta nas setas de pra cima e pra baixo
+
+no checkbox, se usarmos o mesmo name pra cada item (ex:opcional), na url veremos uma sequencia de itens do opcional na barra. O servidor  irá entender que apenas o último dos itens é o válido, portando só receberá a informação do último, por isso é importante no nome colocar as [] para indicar lá no backend que ele não é apenas um valor e sim uma lista de valores. Para isso o formulário tem que ser enviado pelo method post.
+
+o servidor vai receber como $opcional["cebola","calabresa"]
+
+no radio pra só poder selecionar uma opção, o name tem que ser igual
+
+button tipo submit, clear
+
+textarea

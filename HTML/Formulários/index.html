@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="signup" target="_blank" autocomplete="off" method="post" onsubmit="alert['formulário enviado']" action="https://meusite.com.br/signup">
+        <label>Nome: </label><input type="text" name="name"><br>
+        <label>Idade: </label> <input type="number" min="18" max="99"  step="5" name="age"><br>
+        <label>Senha: </label> <input type="password" name="password"><br>
+        <label>Input tipo <code>button</code>: </label> <input type="button" value="submit"> colocar o texto dentro de value<br>
+        <label>Input tipo <code>range</code>: </label><input type="range"><br>
+        <label>Input tipo <code>email</code>: </label><input type="email"><br>
+        <label>Input tipo <code>date</code>: </label><input type="date"><br>
+        <label>Input tipo <code>radio</code>: </label>
+    </form>    
+
+    <form method="get">
+     <h3> Escolha os itens da sua pizza</h3>
+     <input type="checkbox" name="opcionais[]" value="queijo">Queijo<br>
+     <input type="checkbox" name="opcionais[]" value="calabresa">Calabresa<br>
+     <input type="checkbox" name="opcionais[]" value="cebola">Cebola<br>
+     <input type="checkbox" name="opcionais[]" value="azeitona">Azeitona<br>
+
+     <p>Borda recheada?</p>
+     <input type="radio" name="borda" value="sim">Sim<br>
+     <input type="radio" name="borda" value="nao">Não<br>
+    </FORM>
+
+
+    <form>
+        <label>Nome</label> <input type="text" name="name"><br>
+        <label>Cargo:</label>
+        <select name="role" id="">
+            <option value="">Selecione o cargo</option>
+            <option value="administrativo">Administrativo</option>
+            <option value="financeiro">Financeiro</option>
+            <option value="recursos-humanos">Recursos humanos</option>
+        </select><br>
+        <label>Mensagem: </label>
+        <textarea rows="10" cols="20" name="message"></textarea>
+       
+
+    </form>
+
+</body>
+</html>
