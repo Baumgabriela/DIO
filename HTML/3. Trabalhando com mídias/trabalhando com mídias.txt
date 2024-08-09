@@ -1,0 +1,28 @@
+<img>
+
+src - "source"
+se nao colocamos a dimensão, vai a dimensão original da imagem
+
+se coloco só a largura (width) a altura é automática pra manter proporção
+
+title é o balãozinho que aparece quando passamos o mouse em cima 
+
+<audio></audio>
+    <source src"">
+    O seu navegador não tem compatibilidade (se o navegador não executar o áudio, já aparece a mensagem)
+
+    controls -> adiciona os controles
+    autoplay -> começa sozinho o áudio
+
+    <video></video>
+    controls<source src=''/>
+
+    <track>
+    Auxiliar do vídeo. Dentro da tag de vídeo
+    src
+    kind - o tipo do track
+    interessante pra acessibilidade
+    srclang='idioma' é o que aparece descrito no botão de legenda
+    default define qual o arquivo é o default
+
+    <iframe>

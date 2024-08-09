@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+
+}
+
+.sidenav{
+    background-color: #20b7a3;
+    height: 100%;
+    width: auto; /*ajusta o tamanho do conteiner conforme conteúdo, porém é necessário um padding right pq se não a borda fica grudada no conteúdo */
+    position: fixed; /* Posicionado em relação a janela do navegador, se mantem fixo mesmo que a página seja rolada */
+    top: 0px; /*gruda o contêiner o mais pra cima que dá*/
+    left: 0px; /*gruda a margem do bloco o mais pra esquerda que dá*/
+    padding-top: 10px; /*padding do elemento mais de cima em relação a margem do bloco*/
+    padding-right: 10px;
+    text-transform: uppercase;
+
+   
+}   
+
+.sidenav a {
+    
+    padding: 5px;
+    padding-left: 10px;
+    display: block; /*distribui as opções em 1 por linha */
+    text-decoration: none; /* PRECISA ser aplicado direto nos elementos filhos, ao contrário do text-transform que é herdável*/
+    color: #ffffff;
+    font-weight: ;
+
+    
+}

@@ -1,0 +1,18 @@
+Fontes de novo composto colocar entre '' 
+
+Tags <div> e <span>
+
+A estruturação da página é de fora para dentro.
+
+usa-se div para bolar essa estruturação. Tipo o cabeçalho, conteudo, menu, footer...
+
+Div é display block, ou seja, ocupa a horizontal inteira. 
+
+SPAN não é display block, portanto não quebra textos ao meio. Então ele é legal pra CSS específicos
+
+<fieldset>
+É mais estrutural. Faz um retangulo em volta do que esta entre as tags. 
+
+Botar a tag <legend></legend> que dai dá pra colocar um texto no retangulo tipo assim ------TEXTO----- 
+
+embed vs iframe. o iframe permite trazer qualquer tipo de mídia pro site
