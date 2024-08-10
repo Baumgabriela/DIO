@@ -1,0 +1,30 @@
+- Display-block
+
+> Ocupa uma linha inteira em bloco: <div> e <p>. O <span> não tem como padrão o display block. Por padrão ele ocupa o espaço do conteúdo dele.
+
+- Display inline
+
+> Elementos serão colocados lado-a-lado ocupando a mesma linha. O <span> é inline. <em>  e <b> (de bold). Ignora height e width. Margin e Padding podem ser usados, mas se o elemento inline estiver dentro de um elemento em bloco e aplicar, por exemplo, um bg color, o bg vai invadir o bloco
+
+> Inline-block
+
+>> Semelhante ao display inline, só que é possível definir height e width. Boa versatilidade comparando com o display inline 
+
+> Display-none
+
+>> Elemento visualmente escondido. Esconde todos elementos filhos
+
+> Visibility
+
+>> faz a mesma coisa que display none, mas mantem o espaço ocupado pelo item
+
+>> visibility: hidden
+
+> Alinhando elementos inline
+
+>> text-align, vertical-align (middle, baseline, text-bottom, text-top, sub, super)
+
+DISPLAY GRID VS DISPLAY FLEX
+
+FLEXBOX: 1 DIMENSÃO (só linhas ou só colunas)
+Grid Layout: 2 Dimensões
