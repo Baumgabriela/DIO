@@ -14,6 +14,7 @@ body{
     padding-right: 10px;
     text-transform: uppercase;
 
+    /* Criar o :hover na .sidenav vai fazer o bloco todo mudar de cor */
    
 }   
 
@@ -25,6 +26,12 @@ body{
     text-decoration: none; /* PRECISA ser aplicado direto nos elementos filhos, ao contrário do text-transform que é herdável*/
     color: #ffffff;
     font-weight: ;
-
     
+    
+}
+
+.sidenav a:hover {
+    background-color: #2fffe3;
+    color: #000000;
+    font-weight: bolder;
 }
