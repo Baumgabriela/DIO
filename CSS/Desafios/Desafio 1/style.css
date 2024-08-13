@@ -1,0 +1,126 @@
+body {
+    text-align: center;
+    background-color: 
+    rgb(0, 0, 0);
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url("Assets/banner.png");
+    background-size: cover;
+}
+.banner {
+    padding-top: 60px;
+}
+
+.banner .logo {
+    background-color: rgba(0, 0, 0, .2);
+    height: 260px;
+    width: 260px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto dentro dos elementos */
+    
+}
+.banner-content, #course-content, #professional-challenges {
+    padding-bottom: 60px;
+}
+
+h1 {
+    background-image: linear-gradient(to right, #33A8DB,#1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #33A8DB;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+hr {
+    border-color: #1596ce;
+}
+a {
+    text-decoration: none;
+    color: #31A8DD;
+    
+}
+
+#transform-world {
+    background-attachment:fixed; 
+    background-image: url("Assets/woman-code.png");
+    background-size: cover ;
+    margin: 1px solid;
+    height: 560px;
+    border-top: 2px solid #1596ce;
+    border-bottom: 2px solid #1596ce;
+}
+
+#transform-world p {
+    text-shadow: 5px 3px #33A8DB;
+    font-weight: 900;
+    font-size: 2.5em;
+    text-transform: lowercase;
+    max-width: 400px;
+    line-height: 1em;
+    
+}
+button {
+    cursor: pointer;
+    border: 2px solid;
+    border-color: #3BA1CD;
+    padding: 19px 91px;
+    font-weight: 900;
+    font-size: 16px;
+    color: #31A8DD;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 4px;
+
+}
+section {
+    padding-top: 60px;
+    padding-bottom: ;
+}
+
+#course-content .modules-list .module{
+    border: 1px solid #33a8db;
+    border-radius: 100px;
+    margin: 0 auto 24px; /*margem cim,a, margens lado, margem baixo*/
+    padding: 16px;
+    width: 530px;
+    background-color: #252525;
+    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+}
+
+.module span{
+    color:#33A8DB
+    
+}
+
+
+
+footer {
+    border-top: 1.5px solid #1596ce;
+    padding-top: 40px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6))
+}
+
+footer p {
+    margin: 0px;
+}
+
+
